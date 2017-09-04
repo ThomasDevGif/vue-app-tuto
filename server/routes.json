@@ -1,0 +1,5 @@
+{
+  "/api/*": "/$1",
+  "/:resource/:id": "/:resource/:id",
+  "/users/login/:login/password/:password": "/users?login=:login&password=:password"
+}
